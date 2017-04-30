@@ -10,7 +10,7 @@ public class SendContent {
         this.sendContentService = sendContentService;
     }
 
-    public void send(User user, String content) {
+    public void process(User user, String content) {
         sendContentService.send(user, content);
     }
 }

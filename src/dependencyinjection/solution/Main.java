@@ -11,11 +11,11 @@ public class Main {
 
         SendContentService sendContentService = ContentSenderFactory.getSendContentService(user.getSendContentType());
         SendContent sendContent = new SendContent(sendContentService);
-        sendContent.send(user,"Welocme to design patter");
+        sendContent.process(user,"Welcome to design pattern");
 
         user.setSendContentType(SendContentType.SMS);
         sendContentService = ContentSenderFactory.getSendContentService(user.getSendContentType());
         SendContent sendContent1 = new SendContent(sendContentService);
-        sendContent1.send(user,"Welocme to design patter");
+        sendContent1.process(user,"Welcome to design pattern");
     }
 }

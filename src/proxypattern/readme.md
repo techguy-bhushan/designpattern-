@@ -1,3 +1,4 @@
+# Proxy Pattern :
 In proxy pattern, a class represents surrogate for another class. In the real work a Cheque or Debit card is a proxy for what is in our bank account.
 It can be used in place of cash, which is what is needed, and provides a means of accessing that cash when required.
 And that's exactly what the Proxy pattern does - controls and manage access to the object they are "protecting".

@@ -7,6 +7,6 @@ public class ICICI implements Bank {
     private static final String BANK_NAME = "ICICI";
     @Override
     public String getBankName() {
-        return null;
+        return BANK_NAME;
     }
 }
